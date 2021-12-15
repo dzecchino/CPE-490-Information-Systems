@@ -1,0 +1,6 @@
+set terminal png
+set output "CDF_Plot.png"
+set xlabel "Time (ms)"
+set ylabel "Probability"
+set title "Cumulative Distribution Function"
+plot "refinedDATA" using 2:1 with lp

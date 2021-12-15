@@ -1,0 +1,6 @@
+set terminal png
+set output "Plot.png"
+set title "EWMA Approach"
+set ylabel "RTT Delay (ms)"
+set xlabel "Time (s)"
+plot "RTTvTime" using 1:2 with lp,"EstimatevTime" using 1:2 with lp
