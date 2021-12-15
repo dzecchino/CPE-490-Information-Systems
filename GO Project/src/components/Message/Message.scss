@@ -1,0 +1,19 @@
+//Message box customization
+.Message {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    color:white;
+    background-color: #b30538;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    clear: both;
+    
+    &.me {
+      color: white;
+      float: right;
+      background-color: #328ec4;
+    }
+  }
+
